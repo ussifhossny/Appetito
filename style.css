@@ -21,7 +21,8 @@ height: 400px;
 @media (max-width: 767px) {
     .home h1 {
       font-size: 22px;
-      padding-top: 100px;
+      margin-top: 80px;
+     
     }
     .home img {
       height: 250px;
@@ -33,6 +34,8 @@ height: 400px;
       font-size: 20px;
       cursor: pointer;
       border-radius: 7px;
+      outline: none;
+      border: none;
     }
   }
 
@@ -58,6 +61,8 @@ height: 400px;
   background-color: rgb(34, 207, 34);
   cursor: pointer;
   border-radius: 7px;
+  outline: none;
+  border: none;
 }
 
 .yesBtn:hover {
@@ -95,6 +100,8 @@ height: 400px;
   background-color: rgb(34, 207, 34);
   cursor: pointer;
   border-radius: 7px;
+  outline: none;
+  border: none;
 }
 @media (max-width: 767px) {
     .page2 h1 {
@@ -112,6 +119,8 @@ height: 400px;
         font-size: 20px;
         cursor: pointer;
         border-radius: 7px;
+        outline: none;
+        border: none;
       }
   }
 
@@ -137,7 +146,7 @@ height: 400px;
 @media (max-width: 767px) {
   .page3 h1 {
     font-size: 22px;
-    padding-top: 100px;
+    margin-top: 80px;
     color: white;
   }
 
