@@ -158,8 +158,8 @@ height: 400px;
     color: rgb(175, 30, 30);
     margin-top: 20px;
   }
-  .icons .fa-apple {
-    color: rgb(255, 255, 255);
+  .icons .fa-app-store-ios {
+    color:blue;
     font-size: 45px;
     padding-right: 10px;
   }
@@ -174,13 +174,13 @@ height: 400px;
   margin-top: 30px;
 }
 
-.fa-apple {
-  color: rgb(255, 255, 255);
+.fa-app-store-ios {
+  color:blue;
   font-size: 55px;
   padding-right: 10px;
 }
-.fa-apple:hover {
-  color: rgb(173, 173, 173);
+.fa-app-store-ios:hover {
+  color:blue;
   padding-right: 10px;
 }
 .fa-google-play {
