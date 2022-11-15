@@ -159,7 +159,7 @@ height: 400px;
     margin-top: 20px;
   }
   .icons .fa-app-store-ios {
-    color:blue;
+    color:#1a73e8;
     font-size: 45px;
     padding-right: 10px;
   }
@@ -175,12 +175,12 @@ height: 400px;
 }
 
 .fa-app-store-ios {
-  color:blue;
+  color:#1a73e8;
   font-size: 55px;
   padding-right: 10px;
 }
 .fa-app-store-ios:hover {
-  color:blue;
+  color:#1a73e8;
   padding-right: 10px;
 }
 .fa-google-play {
