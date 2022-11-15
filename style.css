@@ -45,20 +45,20 @@ body {
     margin-top: 0;
     font-size: 22px;
     color: rgb(237, 30, 54);
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     animation: changing-color 1s forwards infinite;
-    letter-spacing: -0.5px;
   }
   .home img {
     width: 340px;
-    margin-top: 100px;
+    margin-top: 70px;
     border-radius: 7px;
   }
   .home h1 {
     color: rgb(237, 30, 54);
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    letter-spacing: -0.5px;
     margin-top: 30px;
   }
   .home .yesBtn {
@@ -71,7 +71,8 @@ body {
     border: none;
     color: white;
     animation: changing-color-btn 1s forwards infinite;
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
 
@@ -106,13 +107,13 @@ body {
 @media (max-width: 767px) {
   .page2 h1 {
     color: rgb(237, 30, 54);
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
-    letter-spacing: -0.5px;
   }
   .page2 video {
     width: 320px;
-    margin-top: 60px;
+    margin-top: 50px;
     border-radius: 10px;
   }
   .page2 .howBtn {
@@ -125,7 +126,8 @@ body {
     border: none;
     color: white;
     animation: changing-color-btn2 1s forwards infinite;
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(237, 30, 54);
   }
   .page2 .howBtn2 {
@@ -138,7 +140,8 @@ body {
     border: none;
     color: white;
     animation: changing-color-btn2 1s forwards infinite;
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 10px;
   }
 }
@@ -171,9 +174,9 @@ body {
 @media (max-width: 767px) {
   .page3 h1 {
     color: rgb(237, 30, 54);
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
-    letter-spacing: -0.5px;
     animation: welcome-to-appetito 1s forwards infinite;
   }
 
@@ -193,9 +196,9 @@ body {
 
   .page3 .lastSection h2 {
     color: rgb(237, 30, 54);
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
-    letter-spacing: -0.5px;
   }
 
   .icons {
@@ -229,9 +232,9 @@ body {
 
   .page4 .miss {
     color: rgb(237, 30, 54);
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 27px;
-    letter-spacing: -0.5px;
   }
 
   .page4 img {
@@ -241,15 +244,15 @@ body {
   .page4 .discount {
     margin-top: 20px;
     color: white;
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    letter-spacing: -0.5px;
   }
   .page4 .promo {
     color: rgb(237, 30, 54);
-    font-family: cursive;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 27px;
-    letter-spacing: -0.5px;
     animation: changing-color-promo 1s forwards infinite;
     padding: 0;
     margin: 0;
@@ -264,9 +267,9 @@ body {
 
   .followUs h1 {
     color: white;
-    font-family: cursive;
     font-size: 22px;
-    letter-spacing: -0.5px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .page4 .followUs .icons {
@@ -286,7 +289,22 @@ body {
     color: rgb(120, 125, 141);
     padding: 10px 10px;
   }
+  .page4 .goBack{
+    background-color: rgb(237, 30, 54);
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    color: white;
+    animation: changing-color-btn2 1s forwards infinite;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+  }
 }
+
 
 .hide {
   display: none !important;
