@@ -113,7 +113,8 @@ body {
   }
   .page2 video {
     width: 320px;
-    margin-top: 50px;
+    height: 390px;
+    margin-top: 20px;
     border-radius: 10px;
   }
   .page2 .howBtn {
