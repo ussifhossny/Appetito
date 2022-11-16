@@ -25,7 +25,7 @@ body {
   margin-top: 50px;
 }
 .section1 h1 {
-  color: rgb(245, 170, 161);
+  color: rgb(223, 162, 155);
   margin-top: 10px;
 }
 .section1 img {
@@ -59,14 +59,15 @@ body {
 }
 
 .section2 h1 {
-  color: rgb(245, 170, 161);
+  color: rgb(223, 162, 155);
   padding: 0px;
   margin: 0;
   font-size: 25px;
 }
 
 .section2 .download{
-  color: rgb(190, 190, 190);
+  color: rgb(161, 16, 33);
+  /* color: rgb(218, 218, 218); */
 }
 
 .section2 .h11 {
@@ -120,7 +121,7 @@ body {
 }
 
 .section3 h1 {
- color: rgb(237,30,54);
+ color: rgb(192, 25, 45);
 }
 
 .iconss i {
