@@ -98,12 +98,12 @@ body {
   }
 
   .section2 .h11 {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .icons i {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
   }
 }
@@ -138,13 +138,13 @@ body {
 /* Start Section Three On Mobile */
 @media (max-width: 767px) {
   .section3 h1 {
-    font-size: 28px;
-    margin-top: 80px;
+    font-size: 26px;
+    margin-top: 60px;
     color: rgb(214, 28, 50);
   }
 
   .iconss i {
-    font-size: 28px;
+    font-size: 35px;
     margin: 6px;
   }
 }
