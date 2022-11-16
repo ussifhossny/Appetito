@@ -25,7 +25,7 @@ body {
   margin-top: 50px;
 }
 .section1 h1 {
-  color: rgb(185, 7, 28);
+  color: rgb(245, 170, 161);
   margin-top: 10px;
 }
 .section1 img {
@@ -41,7 +41,6 @@ body {
     margin-top: 20px;
   }
   .section1 h1 {
-    color: rgb(161, 15, 32);
     margin-top: 10px;
     font-size: 22px;
   }
@@ -60,7 +59,7 @@ body {
 }
 
 .section2 h1 {
-  color: rgb(161, 15, 32);
+  color: rgb(245, 170, 161);
   padding: 0px;
   margin: 0;
   font-size: 25px;
@@ -95,7 +94,6 @@ body {
 /* Start Section Two Mobile*/
 @media (max-width: 767px) {
   .section2 h1 {
-    color: rgb(161, 15, 32);
     padding: 0px;
     margin: 0;
     font-size: 19px;
@@ -122,7 +120,7 @@ body {
 }
 
 .section3 h1 {
-  color: rgb(214, 28, 50);
+ color: rgb(237,30,54);
 }
 
 .iconss i {
@@ -144,7 +142,6 @@ body {
   .section3 h1 {
     font-size: 26px;
     margin-top: 30px;
-    color: rgb(214, 28, 50);
   }
 
   .iconss i {
