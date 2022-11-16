@@ -1,6 +1,11 @@
+/* Start Coding */
 body {
-  background-color: rgb(248, 193, 199);
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -8,367 +13,179 @@ body {
   flex-direction: column;
 }
 
-.home {
+/* Start Section one */
+.section1 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
-
-.home h1 {
-  color: white;
-  text-align: center;
+.section1 .logo {
+  width: 210px;
+  margin-top: 50px;
 }
-
-.home img {
-  width: 650;
-  margin-top: 100px;
+.section1 h1 {
+  color: rgb(185, 7, 28);
+  margin-top: 10px;
 }
-.home .yesBtn {
-  max-width: fit-content;
-  padding: 10px 25px;
-  font-size: 25px;
-  cursor: pointer;
-  border-radius: 7px;
-  margin-top: 70px;
-  background-color: rgb(237, 30, 54);
-  outline: none;
-  border: none;
+.section1 img {
+  width: 500px;
+  border-radius: 8px;
 }
+/* End Section one */
+/* Start Section On Mobile */
 @media (max-width: 767px) {
-  .home .logo {
+  .section1 .logo {
     width: 210px;
     height: 45px;
-    margin-top: 40px;
-  }
-  .home .all {
-    margin-top: 0;
-    font-size: 20px;
-    color: rgb(237, 30, 54);
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    animation: changing-color 1s forwards infinite;
-  }
-  .home img {
-    width: 340px;
-    margin-top: 70px;
-    border-radius: 7px;
-  }
-  .home h1 {
-    color: rgb(237, 30, 54);
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-top: 30px;
-  }
-  .home .yesBtn {
-    margin-top: 70px;
-    padding: 10px 25px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 7px;
-    outline: none;
-    border: none;
-    color: white;
-    animation: changing-color-btn 1s forwards infinite;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-}
-
-.page2 h1 {
-  color: white;
-}
-
-.page2 img {
-  width: 650px;
-}
-
-.page2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.page2 img {
-  margin-top: 60px;
-}
-
-.howBtn {
-  max-width: fit-content;
-  padding: 10px 35px;
-  font-size: 20px;
-  background-color: rgb(34, 207, 34);
-  cursor: pointer;
-  outline: none;
-  border: none;
-}
-@media (max-width: 767px) {
-  .page2 h1 {
-    color: rgb(237, 30, 54);
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-  }
-  .page2 img {
-    width: 320px;
-    height: 390px;
     margin-top: 20px;
-    border-radius: 10px;
   }
-  .page2 .howBtn {
-    margin-top: 50px;
-    padding: 10px 25px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 7px;
-    outline: none;
-    border: none;
-    color: white;
-    animation: changing-color-btn2 1s forwards infinite;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(237, 30, 54);
-  }
-  .page2 .howBtn2 {
-    background-color: rgb(237, 30, 54);
-    padding: 10px 25px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 7px;
-    outline: none;
-    border: none;
-    color: white;
-    animation: changing-color-btn2 1s forwards infinite;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  .section1 h1 {
+    color: rgb(185, 7, 28);
     margin-top: 10px;
+    font-size: 22px;
   }
-}
-
-.page3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.page3 h1 {
-  color: white;
-}
-
-.page3 img {
-  width: 650px;
-}
-.fa-app-store-ios {
-  color: #1a73e8;
-  font-size: 52px;
-  padding-right: 10px;
-}
-.fa-google-play {
-  color: rgb(2, 196, 115);
-  font-size: 50px;
-  padding-left: 10px;
-}
-
-@media (max-width: 767px) {
-  .page3 h1 {
-    color: rgb(237, 30, 54);
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    animation: welcome-to-appetito 1s forwards infinite;
-  }
-
-  .page3 img {
-    width: 340px;
-    margin-top: 60px;
+  .section1 img {
+    width: 350px;
     border-radius: 8px;
   }
+}
+/* End Section One Mobile */
+/* Start Section Two */
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .lastSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.section2 h1 {
+  color: rgb(185, 7, 28);
+  padding: 0px;
+  margin: 0;
+  font-size: 25px;
+}
+
+.section2 .h11 {
+  margin-top: 40px;
+}
+
+.icons {
+  margin-top: 40px;
+}
+
+.icons i {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.icons .fa-google-play {
+  color: rgb(6, 228, 112);
+  animation: changing-color2 1s forwards infinite;
+}
+.icons .fa-app-store {
+  color: rgb(26, 157, 241);
+  animation: changing-color 1s forwards infinite;
+}
+/* End Section Two */
+/* Start Section Two Mobile*/
+@media (max-width: 767px) {
+  .section2 h1 {
+    color: rgb(185, 7, 28);
+    padding: 0px;
+    margin: 0;
+    font-size: 19px;
+  }
+
+  .section2 .h11 {
     margin-top: 40px;
   }
 
-  .page3 .lastSection h2 {
-    color: rgb(237, 30, 54);
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-  }
-
-  .icons {
-    margin-top: 30px;
-  }
-
-  .page3 .lastSection .icons .fa-app-store-ios {
-    color: #1a73e8;
-    font-size: 42px;
-    padding-right: 10px;
-  }
-  .page3 .lastSection .icons .fa-google-play {
-    color: rgb(2, 196, 115);
-    font-size: 40px;
-    padding-left: 10px;
+  .icons i {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
   }
 }
-.page4 {
+/* End Section Two Mobile*/
+/* Start Section Three  */
+
+.section3 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+
+.section3 h1 {
+  color: rgb(214, 28, 50);
+}
+
+.iconss i {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.iconss .fa-instagram {
+  color: rgb(160, 12, 56);
+}
+.iconss .fa-facebook {
+  color: rgb(10, 123, 235);
+}
+.iconss .fa-linkedin {
+  color: rgb(4, 116, 179);
+}
+/* Start Section Three On Mobile */
 @media (max-width: 767px) {
-  .page4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .section3 h1 {
+    font-size: 28px;
+    margin-top: 80px;
+    color: rgb(214, 28, 50);
   }
 
-  .page4 .miss {
-    color: rgb(237, 30, 54);
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 27px;
-  }
-
-  .page4 img {
-    width: 250px;
-  }
-
-  .page4 .discount {
-    margin-top: 20px;
-    color: white;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-  }
-  .page4 .promo {
-    color: rgb(237, 30, 54);
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 27px;
-    animation: changing-color-promo 1s forwards infinite;
-    padding: 0;
-    margin: 0;
-  }
-  .followUs {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .followUs h1 {
-    color: white;
-    font-size: 20px;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .page4 .followUs .icons {
-    margin-top: 30px;
-    font-size: 30px;
-    padding: 10px;
-  }
-  .page4 .followUs .icons .fa-instagram {
-    color: rgb(172, 59, 221);
-    padding: 10px 10px;
-  }
-  .page4 .followUs .icons .fa-facebook {
-    color: rgb(22, 149, 236);
-    padding: 10px 10px;
-  }
-  .page4 .followUs .icons .fa-linkedin {
-    color: rgb(120, 125, 141);
-    padding: 10px 10px;
-  }
-  .page4 .goBack{
-    background-color: rgb(237, 30, 54);
-    padding: 10px 25px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 7px;
-    outline: none;
-    border: none;
-    color: white;
-    animation: changing-color-btn2 1s forwards infinite;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 10px;
+  .iconss i {
+    font-size: 28px;
+    margin: 6px;
   }
 }
-
-
-.hide {
-  display: none !important;
-}
+/* End Section Three On Mobile */
+/* End Coding */
 
 /* Start Animation */
-@keyframes changing-color-btn {
+@keyframes changing-color {
   0%,
   10%,
   20%,
   30%,
   40%,
   50% {
-    background-color: rgb(237, 30, 54);
-    margin-top: 70px;
+    color: rgb(190, 190, 190);
   }
   60%,
   70%,
   80%,
   90%,
   100% {
-    background-color: rgb(250, 108, 125);
-    margin-top: 68px;
+    color: rgb(26, 157, 241);
   }
 }
 /* End Animation */
 /* Start Animation */
-@keyframes changing-color-promo {
+@keyframes changing-color2 {
   0%,
   10%,
   20%,
   30%,
   40%,
   50% {
-    color: rgb(55, 67, 236);
+    color: rgb(6, 228, 112);
   }
   60%,
   70%,
   80%,
   90%,
   100% {
-    color: rgb(23, 199, 7);
+    color: rgb(190, 190, 190);
   }
 }
-
-/* End Animation */
-/* Start Animation */
-@keyframes welcome-to-appetito {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50% {
-    color: rgb(237, 30, 54);
-  }
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    color: white;
-  }
-}
-
 /* End Animation */
