@@ -35,11 +35,11 @@ body {
 } */
 .section1 .carousel .item {
   width: 500px;
-  height: 262px;
+  height: 265px;
 }
 .section1 .carousel .item img {
   width: 500px;
-  height: 262px;
+  height: 265px;
   border-radius: 8px;
 }
 /* End Section one */
@@ -60,11 +60,11 @@ body {
   } */
   .section1 .carousel .item {
     width: 350px;
-    height: 185px;
+    height: 200px;
   }
   .section1 .carousel .item img {
     width: 350px;
-    height: 185px;
+    height: 200px;
     border-radius: 8px;
   }
 }
