@@ -29,8 +29,17 @@ body {
   /* color: rgb(223, 162, 155); */
   margin-top: 10px;
 }
-.section1 img {
+/* .section1 img {
   width: 500px;
+  border-radius: 8px;
+} */
+.section1 .carousel .item {
+  width: 500px;
+  height: 262px;
+}
+.section1 .carousel .item img {
+  width: 500px;
+  height: 262px;
   border-radius: 8px;
 }
 /* End Section one */
@@ -45,8 +54,17 @@ body {
     margin-top: 10px;
     font-size: 22px;
   }
-  .section1 img {
+  /* .section1 img {
     width: 350px;
+    border-radius: 8px;
+  } */
+  .section1 .carousel .item {
+    width: 350px;
+    height: 185px;
+  }
+  .section1 .carousel .item img {
+    width: 350px;
+    height: 185px;
     border-radius: 8px;
   }
 }
@@ -66,7 +84,7 @@ body {
   font-size: 25px;
 }
 
-.section2 .download{
+.section2 .download {
   color: rgb(177, 22, 40);
 }
 
@@ -121,7 +139,7 @@ body {
 }
 
 .section3 h1 {
- color: rgb(192, 25, 45);
+  color: rgb(192, 25, 45);
 }
 
 .iconss i {
