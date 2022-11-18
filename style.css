@@ -60,11 +60,11 @@ body {
   } */
   .section1 .carousel .item {
     width: 350px;
-    height: 200px;
+    height: 190px;
   }
   .section1 .carousel .item img {
     width: 350px;
-    height: 200px;
+    height: 190px;
     border-radius: 8px;
   }
 }
