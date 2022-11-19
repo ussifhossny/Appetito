@@ -118,11 +118,9 @@ body {
   .section2 h1 {
     padding: 0px;
     margin: 0;
-    /* font-size: 19px; */
-    /* font-size: 1.3em; */
-    font-size: 120%;
+    font-size: 18px;
     min-width: 302px;
-     max-width: 350px;
+    max-width: 350px;
     text-align: center;
   }
 
@@ -167,12 +165,12 @@ body {
 /* Start Section Three On Mobile */
 @media (max-width: 767px) {
   .section3 h1 {
-    font-size: 26px;
+    font-size: 23px;
     margin-top: 30px;
   }
 
   .iconss i {
-    font-size: 35px;
+    font-size: 30px;
     margin: 6px;
   }
 }
