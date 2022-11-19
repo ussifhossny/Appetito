@@ -5,7 +5,6 @@ body {
   background-color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
 .container {
   display: flex;
   justify-content: center;
@@ -116,7 +115,8 @@ body {
   .section2 h1 {
     padding: 0px;
     margin: 0;
-    font-size: 19px;
+    /* font-size: 19px; */
+    font-size: 1.3em;
     min-width: 315px;
     text-align: center;
   }
