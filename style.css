@@ -36,7 +36,7 @@ body {
 .section1 h1 {
   color: rgb(201, 201, 201);
   /* color: rgb(223, 162, 155); */
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .section1 .carousel .item {
@@ -57,7 +57,7 @@ body {
     margin-top: 20px;
   }
   .section1 h1 {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 22px;
   }
   /* .section1 img {
@@ -104,13 +104,10 @@ body {
   margin-top: 3px;
 }
 
-.icons {
-  margin-top: 5px;
-}
 
 .icons i {
   font-size: 40px;
-  margin: 10px;
+  
 }
 
 .icons .fa-google-play {
@@ -134,12 +131,14 @@ body {
   .section2 .download{
     font-size:24px ;
     margin-top: 40px;
+    margin-bottom: 10px;
   }
 
   .icons i {
     color: white;
     font-size: 45px;
     margin: 10px;
+ 
   }
 }
 /* End Section Two Mobile*/
@@ -175,6 +174,7 @@ body {
   .section3 h1 {
     font-size:24px ;
     margin-top: 60px;
+    margin-bottom: 10px;
   }
 
   .iconss i {
