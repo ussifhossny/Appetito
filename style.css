@@ -3,9 +3,17 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: proxima;
 }
 
+@font-face{
+  font-family: "proxima";
+  src:url(Proxima.ttf);
+}
+@font-face{
+  font-family: "proxima-bold";
+    src:url(Proxima-Bold.ttf);
+}
 .container {
   display: flex;
   justify-content: center;
@@ -30,10 +38,7 @@ body {
   /* color: rgb(223, 162, 155); */
   margin-top: 10px;
 }
-/* .section1 img {
-  width: 500px;
-  border-radius: 8px;
-} */
+
 .section1 .carousel .item {
   width: 500px;
   height: 265px;
@@ -80,23 +85,27 @@ body {
 
 .section2 h1 {
   color: rgb(201, 201, 201);
-  padding: 0px;
-  margin: 0;
   font-size: 25px;
   width: 500px;
   text-align: center;
 }
 
 .section2 .download {
-  color: rgb(177, 22, 40);
+ color: #ec1f36;
+ font-family:proxima-bold;
 }
 
-.section2 .h11 {
-  margin-top: 40px;
+.section2 .dont {
+  margin: 0;
+  margin-top: 10px;
+  
+}
+.section2 .stay {
+  margin-top: 3px;
 }
 
 .icons {
-  margin-top: 40px;
+  margin-top: 5px;
 }
 
 .icons i {
@@ -116,21 +125,20 @@ body {
 /* Start Section Two Mobile*/
 @media (max-width: 767px) {
   .section2 h1 {
-    padding: 0px;
-    margin: 0;
     font-size: 18px;
     min-width: 302px;
     max-width: 350px;
     text-align: center;
   }
 
-  .section2 .h11 {
-    margin-top: 20px;
+  .section2 .download{
+    font-size:24px ;
+    margin-top: 40px;
   }
 
   .icons i {
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     margin: 10px;
   }
 }
@@ -145,7 +153,7 @@ body {
 }
 
 .section3 h1 {
-  color: rgb(192, 25, 45);
+  color: #ec1f36;
 }
 
 .iconss i {
@@ -165,12 +173,12 @@ body {
 /* Start Section Three On Mobile */
 @media (max-width: 767px) {
   .section3 h1 {
-    font-size: 23px;
-    margin-top: 30px;
+    font-size:24px ;
+    margin-top: 60px;
   }
 
   .iconss i {
-    font-size: 30px;
+    font-size: 35px;
     margin: 6px;
   }
 }
