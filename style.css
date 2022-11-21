@@ -1,225 +1,216 @@
 /* Start Coding */
 body {
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  font-family: proxima;
-}
-
-@font-face{
-  font-family: "proxima";
-  src:url(Proxima.ttf);
-}
-@font-face{
-  font-family: "proxima-bold";
-    src:url(Proxima-Bold.ttf);
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 350px;
-}
-
-/* Start Section one */
-.section1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.section1 .logo {
-  width: 210px;
-  margin-top: 50px;
-}
-.section1 h1 {
-  color: rgb(201, 201, 201);
-  /* color: rgb(223, 162, 155); */
-  margin-top: 5px;
-}
-
-.section1 .carousel .item {
-  width: 500px;
-  height: 265px;
-}
-.section1 .carousel .item img {
-  width: 500px;
-  height: 265px;
-  border-radius: 8px;
-}
-/* End Section one */
-/* Start Section On Mobile */
-@media (max-width: 767px) {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: proxima;
+  }
+  
+  @font-face{
+    font-family: "proxima";
+    src:url(Proxima.ttf);
+  }
+  @font-face{
+    font-family: "proxima-bold";
+      src:url(Proxima-Bold.ttf);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 350px;
+  }
+  
+  /* Start Section one */
+  .section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
   .section1 .logo {
     width: 210px;
-    height: 45px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .section1 h1 {
-    margin-top: 3px;
-    font-size: 22px;
+    color: rgb(201, 201, 201);
+    /* color: rgb(223, 162, 155); */
+    margin-top: 5px;
   }
-  /* .section1 img {
-    width: 350px;
-    border-radius: 8px;
-  } */
+  
   .section1 .carousel .item {
-    width: 350px;
-    height: 200px;
+    width: 500px;
+    height: 265px;
   }
   .section1 .carousel .item img {
-    width: 350px;
-    height: 200px;
+    width: 500px;
+    height: 265px;
     border-radius: 8px;
   }
-}
-/* End Section One Mobile */
-/* Start Section Two */
-.section2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.section2 h1 {
-  color: rgb(201, 201, 201);
-  font-size: 25px;
-  width: 500px;
-  text-align: center;
-}
-
-.section2 .download {
- color: #ec1f36;
- font-family:proxima-bold;
-}
-
-.section2 .dont {
-  margin: 0;
-  margin-top: 10px;
+  /* End Section one */
+  /* Start Section On Mobile */
+  @media (max-width: 767px) {
+    .section1 .logo {
+      width: 210px;
+      height: 45px;
+      margin-top: 20px;
+    }
+    .section1 h1 {
+      margin-top: 3px;
+      font-size: 22px;
+    }
+    /* .section1 img {
+      width: 350px;
+      border-radius: 8px;
+    } */
+    .section1 .carousel .item {
+      width: 350px;
+      height: 200px;
+    }
+    .section1 .carousel .item img {
+      width: 350px;
+      height: 200px;
+      border-radius: 8px;
+    }
+  }
+  /* End Section One Mobile */
+  /* Start Section Two */
+  .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   
-}
-.section2 .stay {
-  margin-top: 3px;
-}
-
-
-.icons i {
-  font-size: 40px;
-  
-}
-
-.icons .fa-google-play {
-  color: rgb(6, 228, 112);
-  animation: changing-color2 1s forwards infinite;
-}
-.icons .fa-app-store {
-  color: rgb(26, 157, 241);
-  animation: changing-color 1s forwards infinite;
-}
-/* End Section Two */
-/* Start Section Two Mobile*/
-@media (max-width: 767px) {
   .section2 h1 {
-    font-size: 18px;
-    min-width: 302px;
-    max-width: 350px;
+    color: rgb(201, 201, 201);
+    font-size: 25px;
+    width: 500px;
     text-align: center;
   }
-
-  .section2 .download{
-    font-size:24px ;
-    margin-top: 40px;
-    margin-bottom: 10px;
+  
+  .section2 .download {
+   color: #ec1f36;
+   font-family:proxima-bold;
   }
-
+  
+  .section2 .dont {
+    margin: 0;
+    margin-top: 10px;
+    
+  }
+  .section2 .stay {
+    margin-top: 3px;
+  }
+  
+  
   .icons i {
-    color: white;
-    font-size: 50px;
-    margin: 10px;
- 
+    font-size: 40px;
+    
   }
-}
-/* End Section Two Mobile*/
-/* Start Section Three  */
-
-.section3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.section3 h1 {
-  color: #ec1f36;
-}
-
-.iconss i {
-  font-size: 30px;
-  margin: 10px;
-}
-
-.iconss .fa-instagram {
-  color: rgb(255, 66, 123);
-}
-.iconss .fa-facebook {
-  color: rgb(10, 123, 235);
-}
-.iconss .fa-linkedin {
-  color: rgb(4, 116, 179);
-}
-/* Start Section Three On Mobile */
-@media (max-width: 767px) {
-  .section3 h1 {
-    font-size:24px ;
-    margin-top: 50px;
-    margin-bottom: 10px;
-  }
-
-  .iconss i {
-    font-size: 35px;
-    margin: 6px;
-  }
-}
-/* End Section Three On Mobile */
-/* End Coding */
-
-/* Start Animation */
-@keyframes changing-color {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50% {
-    color: rgb(190, 190, 190);
-  }
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    color: rgb(26, 157, 241);
-  }
-}
-/* End Animation */
-/* Start Animation */
-@keyframes changing-color2 {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50% {
+  
+  .icons .fa-google-play {
     color: rgb(6, 228, 112);
+    animation: changing-color2 1s forwards infinite;
   }
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    color: rgb(190, 190, 190);
+  .icons .fa-app-store {
+    color: rgb(26, 157, 241);
+    animation: changing-color 1s forwards infinite;
   }
-}
-/* End Animation */
+  /* End Section Two */
+  /* Start Section Two Mobile*/
+  @media (max-width: 767px) {
+    .section2 h1 {
+      font-size: 18px;
+      min-width: 302px;
+      max-width: 350px;
+      text-align: center;
+    }
+  
+    .section2 .download{
+      font-size:24px ;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+  
+    .icons i {
+      color: white;
+      font-size: 50px;
+      margin: 10px;
+   
+    }
+  }
+  /* End Section Two Mobile*/
+  /* Start Section Three  */
+  
+  .section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section3 h1 {
+    color: #ec1f36;
+  }
+  
+  .iconss img {
+    width: 35px;
+    margin:4px;
+  }
+  
+  /* Start Section Three On Mobile */
+  @media (max-width: 767px) {
+    .section3 h1 {
+      font-size:24px ;
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+    .iconss img {
+      width: 35px;
+      margin:4px;
+    }
+  
+  }
+  /* End Section Three On Mobile */
+  /* End Coding */
+  
+  /* Start Animation */
+  @keyframes changing-color {
+    0%,
+    10%,
+    20%,
+    30%,
+    40%,
+    50% {
+      color: rgb(190, 190, 190);
+    }
+    60%,
+    70%,
+    80%,
+    90%,
+    100% {
+      color: rgb(26, 157, 241);
+    }
+  }
+  /* End Animation */
+  /* Start Animation */
+  @keyframes changing-color2 {
+    0%,
+    10%,
+    20%,
+    30%,
+    40%,
+    50% {
+      color: rgb(6, 228, 112);
+    }
+    60%,
+    70%,
+    80%,
+    90%,
+    100% {
+      color: rgb(190, 190, 190);
+    }
+  }
+  /* End Animation */
